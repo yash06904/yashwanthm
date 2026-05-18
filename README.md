@@ -86,7 +86,7 @@ I am a PhD Candidate at the Indian Institute of Science (IISc) with over 10 year
 ## Contact & References 
 
 * **Email:** [yashwanth06904@gmail.com](mailto:yashwanth06904@gmail.com)
-* **LinkedIn:** [linkedin.com/in/yash](https://linkedin.com/in/yash)
+* **LinkedIn:** [linkedin.com/in/yash](https://www.linkedin.com/in/yashwanth-mandula-aba700a5/)
 
 **References available upon request:**
 * **Dr. Anirban Chakraborty**, Associate Professor, Indian Institute of Science (IISc)
