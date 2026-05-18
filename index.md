@@ -71,8 +71,8 @@ I am a PhD Candidate at the Indian Institute of Science (IISc) with over 10 year
 ## Achievements, Patents & Service
 
 ### Achievements & Fellowships
-* **Prime Minister's Research Fellowship (PMRF) | Government of India (2021):** Awarded the most prestigious national fellowship for doctoral research at IISc, recognized for excellence in research and academic potential.
-* **Graduate Aptitude Test in Engineering (GATE) | Electronics & Communication (2009):** Achieved an All India Rank (AIR) of 9 among approximately 100,000 candidates nationwide (Top 0.01 percentile).
+* Awarded Prime Minister's Research Fellowship (PMRF) from the Government of India (2021)
+* Graduate Aptitude Test in Engineering (GATE) | Electronics & Communication (2009): Achieved an All India Rank (AIR) of 9.
 
 ### Patents
 * **Null-Space-Projection-Based Channel Decomposition for Beamforming (2020):** Invented a novel channel decomposition method to enhance multi-user beamforming efficiency; published as US Patent App. 16/280,816 (US20200274592A1).
