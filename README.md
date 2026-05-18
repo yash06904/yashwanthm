@@ -60,7 +60,7 @@ I am a PhD Candidate at the Indian Institute of Science (IISc) with over 10 year
 * "Adaptive Self-Distillation for Minimizing Client Drift in Heterogeneous Federated Learning", *Transactions on Machine Learning Research (TMLR)*, 2024. (https://openreview.net/pdf?id=K58n87DE4s).
 
 ### Conference Publications
-* "FedSCAL: Leveraging Server and Client Alignment for Unsupervised Federated Source-Free Domain Adaptation", *WACV*, 2026. [link] (https://openaccess.thecvf.com/content/WACV2026/papers/Yashwanth_FedSCAl_Leveraging_Server_and_Client_Alignment_for_Unsupervised_Federated_Source-Free_WACV_2026_paper.pdf)
+* "FedSCAL: Leveraging Server and Client Alignment for Unsupervised Federated Source-Free Domain Adaptation", *WACV*, 2026. [link](https://openaccess.thecvf.com/content/WACV2026/papers/Yashwanth_FedSCAl_Leveraging_Server_and_Client_Alignment_for_Unsupervised_Federated_Source-Free_WACV_2026_paper.pdf)
 * "Minimizing Layerwise Activation Norm Improves Generalization in Federated Learning", *WACV*, 2024.[link](https://openaccess.thecvf.com/content/WACV2024/papers/Yashwanth_Minimizing_Layerwise_Activation_Norm_Improves_Generalization_in_Federated_Learning_WACV_2024_paper.pdf)
 
 ### Pre-prints
