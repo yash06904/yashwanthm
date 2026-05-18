@@ -48,12 +48,12 @@ I am a PhD Candidate at the Indian Institute of Science (IISc) with over 10 year
 ## Experience
 
 ### Cadence Design Systems | Principal Engineer
-*Noida, India (2019-2021)*
+*Bengaluru, India (2019-2021)*
 * Developed ML-driven EDA models using Neural Networks, Random Forests, and GNN's architectures to predict circuit delay, significantly accelerating the design cycle.
 * Implemented RNN architectures for high-fidelity hardware delay estimation, leading to faster convergence in timing optimization and improved tool throughput.
 
 ### Qualcomm | Senior Lead Engineer, PHY Systems
-*Hyderabad, India (2014-2019)*
+*Bengaluru, India (2014-2019)*
 * Architected and implemented PHY-layer algorithms for the IEEE 802.11ax (Wi-Fi 6) standard, ensuring high-throughput performance in dense deployment scenarios.
 * Designed robust receiver decoding algorithms and Radar Detection (DFS) mechanisms to meet global regulatory and performance standards.
 * Mitigated impairments by developing Tx-IQ calibration and LLR optimization techniques for Carrier Frequency Offset (CFO).
