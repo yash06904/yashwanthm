@@ -56,8 +56,8 @@ I am a PhD Candidate at the Indian Institute of Science (IISc) with over 10 year
 ## Publications
 
 ### Journal Articles
-* "Prompt Estimation from Prototypes for Federated Prompt Tuning of Vision Transformers", *Transactions on Machine Learning Research (TMLR)*, 2026. Selected for presentation at ICML (Accepted to Journal-to-Conference track,https://openreview.net/pdf?id=gO1CpPRj6A).
-* "Adaptive Self-Distillation for Minimizing Client Drift in Heterogeneous Federated Learning", *Transactions on Machine Learning Research (TMLR)*, 2024. (https://openreview.net/pdf?id=K58n87DE4s).
+* "Prompt Estimation from Prototypes for Federated Prompt Tuning of Vision Transformers", *Transactions on Machine Learning Research (TMLR)*, 2026. Selected for presentation at ICML (Accepted to Journal-to-Conference track,[link](https://openreview.net/pdf?id=gO1CpPRj6A).
+* "Adaptive Self-Distillation for Minimizing Client Drift in Heterogeneous Federated Learning", *Transactions on Machine Learning Research (TMLR)*, 2024. [link](https://openreview.net/pdf?id=K58n87DE4s).
 
 ### Conference Publications
 * "FedSCAL: Leveraging Server and Client Alignment for Unsupervised Federated Source-Free Domain Adaptation", *WACV*, 2026. [link](https://openaccess.thecvf.com/content/WACV2026/papers/Yashwanth_FedSCAl_Leveraging_Server_and_Client_Alignment_for_Unsupervised_Federated_Source-Free_WACV_2026_paper.pdf)
