@@ -134,7 +134,7 @@ I am a PhD Candidate at the Indian Institute of Science (IISc) with over 10 year
 * **Null-Space-Projection-Based Channel Decomposition for Beamforming (2020):** Invented a novel channel decomposition method to enhance multi-user beamforming efficiency; published as US Patent App. 16/280,816 (US20200274592A1).
 
 ### Academic Service
-* **Reviewer, TMLR (2026 – Present):** Invited to serve as a reviewer for Transactions on Machine Learning Research (TMLR) by the Action Editor.
+* **Reviewer, TMLR (2026 – Present):** Invited to serve as a reviewer for Transactions on Machine Learning Research (TMLR).
 * **Reviewer, AISTATS (2025 – Present):** Evaluated research submissions for the International Conference on Artificial Intelligence and Statistics (AISTATS), focusing on optimization and learning theory.
 
 ## Contact & References 
