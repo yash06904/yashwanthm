@@ -1,22 +1,93 @@
-### About Me
+---
+layout: default
+title: M. Yashwanth | Portfolio
+---
 
-I did my Master's in Engineering from Indian Institute of Science in 2011. After that I worked as Senor Lead Engineer in Qualcomm and as principal product Engineer in cadence design systems close to 10 years. Currently I am pursuing Ph.D under Dr. Anirban Chakraborty in field of Federated Learning with applications to computer vision at Department of Computational and Data Sciences in Indian Institute of Science, Bangalore. Link to my RESUME is [here](https://github.com/yash06904/yash06904/blob/88e9820d06035a93e721c9498171042a6548f345/yashwanth_resume_one_page.pdf)  
+# 🌐 M. Yashwanth
+**Expertise: Machine Learning | Optimization | Signal Processing**
 
-Link to projects can be found [here](https://yash06904.github.io/projects/)
+## About Me
+I am a PhD Candidate at the Indian Institute of Science (IISc) with over 10 years of industry experience spanning wireless systems and machine learning. My current research specializes in federated learning under data heterogeneity, with a strong focus on improving generalization, client stability, and scalable deployment. Throughout my career, I have demonstrated a proven track record of successfully translating theoretical research into practical systems across both machine learning and communication domains.
 
-Like to the data science project is [here](https://yash06904.github.io/datascience/)
- 
-<!--
-**yash06904/yash06904** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
+## Technical Skills
+* **Core Expertise:** Federated Learning, Optimization, Machine Learning (Generative Modeling, Transformers, CNNs), Signal Processing, and Wireless Communications.
+* **Programming Languages & Tools:** PyTorch, MATLAB, C++, Python.
+* **Domain Knowledge:** IEEE 802.11ax/ac PHY.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## Experience
+
+### Cadence Design Systems | Principal Engineer
+*Noida, India (2019-2021)*
+* Developed ML-driven EDA models using Neural Networks, Random Forests, and GNN's architectures to predict circuit delay, significantly accelerating the design cycle.
+* Implemented RNN architectures for high-fidelity hardware delay estimation, leading to faster convergence in timing optimization and improved tool throughput.
+
+### Qualcomm | Senior Lead Engineer, PHY Systems
+*Hyderabad, India (2014-2019)*
+* Architected and implemented PHY-layer algorithms for the IEEE 802.11ax (Wi-Fi 6) standard, ensuring high-throughput performance in dense deployment scenarios.
+* Designed robust receiver decoding algorithms and Radar Detection (DFS) mechanisms to meet global regulatory and performance standards.
+* Mitigated impairments by developing Tx-IQ calibration and LLR optimization techniques for Carrier Frequency Offset (CFO).
+* Advanced Transmit Beamforming capabilities, contributing to improved spectral efficiency and signal reliability in MIMO environments.
+
+### Ikanos Communications (Acquired by Qualcomm) | DSP Engineer
+*Bengaluru, India (2012-2014)*
+* Developed signal processing algorithms for DSL systems, including RFI notch cancellation and adaptive echo suppression.
+* Improved DSL throughput and stability by enhancing symbol boundary detection in high-noise copper environments.
+
+### Redpine Signals (Now Silicon Labs) | DSP Firmware Engineer
+*Hyderabad, India (2011-2012)*
+* Engineered the 802.11ac Transmitter firmware for next-generation wireless communication systems, focusing on low-latency signal processing.
+
+---
+
+## Education
+* **PhD in Federated Learning** | Indian Institute of Science, Bangalore, Karnataka 
+  *(Aug. 2021 – September 2026, expected)*
+* **Masters in Signal Processing** | Indian Institute of Science, Bangalore, Karnataka 
+  *(Aug. 2009 – July 2011)*
+* **Bachelors in E.C.E** | JNTU, Hyderabad, Telangana 
+  *(Aug. 2005 – June 2009)*
+
+---
+
+## Publications
+
+### Journal Articles
+* **M.**, et al. "Prompt Estimation from Prototypes for Federated Prompt Tuning of Vision Transformers", *Transactions on Machine Learning Research (TMLR)*, 2026. Selected for presentation at ICML (Journal-to-Conference track).
+* **M.**, et al. "Adaptive Self-Distillation for Minimizing Client Drift in Heterogeneous Federated Learning", *Transactions on Machine Learning Research (TMLR)*, 2024.
+
+### Conference Publications
+* **M.**, et al. "FedSCAL: Leveraging Server and Client Alignment for Unsupervised Federated Source-Free Domain Adaptation", *WACV*, 2026.
+* **M.**, et al. "Minimizing Layerwise Activation Norm Improves Generalization in Federated Learning", *WACV*, 2024.
+
+### Pre-prints
+* **M.**, et al. "Federated Learning by Exploiting Utilities and Improving Client Participation." (Under review at NIPS).
+
+---
+
+## Achievements, Patents & Service
+
+### Achievements & Fellowships
+* **Prime Minister's Research Fellowship (PMRF) | Government of India (2021):** Awarded the most prestigious national fellowship for doctoral research at IISc, recognized for excellence in research and academic potential.
+* **Graduate Aptitude Test in Engineering (GATE) | Electronics & Communication (2009):** Achieved an All India Rank (AIR) of 9 among approximately 100,000 candidates nationwide (Top 0.01 percentile).
+
+### Patents
+* **Null-Space-Projection-Based Channel Decomposition for Beamforming (2020):** Invented a novel channel decomposition method to enhance multi-user beamforming efficiency; published as US Patent App. 16/280,816 (US20200274592A1).
+
+### Academic Service
+* **Reviewer, TMLR (2026 – Present):** Invited to serve as a reviewer for Transactions on Machine Learning Research (TMLR) by the Action Editor.
+* **Reviewer, AISTATS (2025 – Present):** Evaluated research submissions for the International Conference on Artificial Intelligence and Statistics (AISTATS), focusing on optimization and learning theory.
+
+---
+
+## Contact & References 
+
+* **Email:** [yashwanth06904@gmail.com](mailto:yashwanth06904@gmail.com)
+* **LinkedIn:** [linkedin.com/in/yash](https://linkedin.com/in/yash)
+
+**References available upon request:**
+* **Dr. Anirban Chakraborty**, Associate Professor, Indian Institute of Science (IISc)
+* **Ashutosh Gore**, Vice President, Reliance Industries Limited (Formerly Qualcomm)
