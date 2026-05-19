@@ -43,7 +43,7 @@ I am a PhD Candidate at the Indian Institute of Science (IISc) with over 10 year
 * "Minimizing Layerwise Activation Norm Improves Generalization in Federated Learning", *WACV*, 2024. [View Paper](https://openaccess.thecvf.com/content/WACV2024/papers/Yashwanth_Minimizing_Layerwise_Activation_Norm_Improves_Generalization_in_Federated_Learning_WACV_2024_paper.pdf)
 
 ### Pre-prints
-* "Federated Learning by Exploiting Utilities and Improving Client Participation." (Under Review).
+* "Federated Learning by Utility-Constrained Stochastic Aggregation for Improving Rational Participation"[link](https://arxiv.org/abs/2605.18020) (Under Review).
 
 ## Experience
 
