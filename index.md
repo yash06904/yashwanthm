@@ -58,7 +58,7 @@ title: M. Yashwanth | Machine Learning Researcher
     border-bottom: 1px solid var(--line);
   }
   nav .wrap { display: flex; align-items: center; justify-content: space-between; height: 58px; }
-  nav .mark { font-family: var(--display); font-weight: 700; color: var(--ink); font-size: 1.05rem; letter-spacing: -.01em; }
+  nav .mark { font-family: var(--display); font-weight: 700; color: var(--ink); font-size: 1.22rem; letter-spacing: -.01em; }
   nav .mark b { color: var(--accent); }
   nav ul { display: flex; gap: 22px; list-style: none; margin: 0; padding: 0; }
   nav a { color: var(--muted); font-size: .92rem; font-weight: 500; text-decoration: none; }
@@ -66,7 +66,7 @@ title: M. Yashwanth | Machine Learning Researcher
   @media (max-width: 620px){ nav ul { display: none; } }
 
   /* hero */
-  header.hero { padding: 70px 0 20px; }
+  header.hero { padding: 48px 0 16px; }
   .hero h1 {
     font-family: var(--display); color: var(--ink); font-weight: 700;
     font-size: clamp(2.2rem, 5.5vw, 3.1rem); line-height: 1.04;
@@ -183,12 +183,10 @@ title: M. Yashwanth | Machine Learning Researcher
 
   /* one orchestrated load reveal */
   @media (prefers-reduced-motion: no-preference) {
-    .hero h1, .hero .lede, .hero .chips, .trace {
+    .hero .lede, .trace {
       opacity: 0; transform: translateY(10px); animation: rise .7s cubic-bezier(.2,.7,.2,1) forwards;
     }
-    .hero .lede { animation-delay: .08s; }
-    .hero .chips { animation-delay: .16s; }
-    .trace { animation-delay: .24s; }
+    .trace { animation-delay: .16s; }
     .trace path { stroke-dasharray: 1200; stroke-dashoffset: 1200; animation: draw 1.6s ease-out .3s forwards; }
     .trace .flat { animation: none; stroke-dashoffset: 0; }
     @keyframes rise { to { opacity: 1; transform: none; } }
@@ -200,7 +198,7 @@ title: M. Yashwanth | Machine Learning Researcher
 
 <nav>
   <div class="wrap">
-    <span class="mark">M.<b>Y</b></span>
+    <span class="mark">M. <b>Yashwanth</b></span>
     <ul>
       <li><a href="#focus">Focus</a></li>
       <li><a href="#publications">Publications</a></li>
@@ -214,7 +212,6 @@ title: M. Yashwanth | Machine Learning Researcher
 
 <header class="hero">
   <div class="wrap">
-    <h1>M. Yashwanth</h1>
     <p class="lede">Machine learning researcher working across <b>optimization theory</b> and <b>systems</b>. My PhD is on federated optimization; before it I spent over a decade building wireless signal-processing systems in industry.</p>
     <svg class="trace" viewBox="0 0 860 46" preserveAspectRatio="none" aria-hidden="true">
       <defs>
