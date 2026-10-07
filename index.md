@@ -1,7 +1,3 @@
----
-layout: null
-title: M. Yashwanth | Machine Learning Researcher
----
 <!DOCTYPE html>
 <html lang="en">
 <head>
