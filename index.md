@@ -19,9 +19,11 @@ title: M. Yashwanth | Machine Learning Researcher
     --ink:       #0e1620;
     --body:      #41505f;
     --muted:     #6b7a89;
-    --accent:    #0f766e;
-    --accent-ink:#0b5a53;
-    --accent-wash:#e7f1f0;
+    --accent:    #0d9488;
+    --accent-ink:#0b7268;
+    --accent-wash:#dff3f0;
+    --accent-2:  #0891b2;
+    --grad:      linear-gradient(135deg, #0d9488, #0891b2);
     --line:      #e3e8ec;
     --chip:      #eef2f3;
     --shadow:    0 1px 2px rgba(14,22,32,.04), 0 8px 24px -16px rgba(14,22,32,.18);
@@ -33,7 +35,8 @@ title: M. Yashwanth | Machine Learning Researcher
   @media (prefers-color-scheme: dark) {
     :root {
       --bg:#0d1117; --surface:#141a22; --ink:#edf1f5; --body:#b4c0cc;
-      --muted:#8795a3; --accent:#3bb8aa; --accent-ink:#5fd0c3; --accent-wash:#132b29;
+      --muted:#8795a3; --accent:#2dd4bf; --accent-ink:#5fe0d3; --accent-wash:#0f2f2c;
+      --accent-2:#22d3ee; --grad:linear-gradient(135deg,#2dd4bf,#22d3ee);
       --line:#242d38; --chip:#1b232d;
       --shadow:0 1px 2px rgba(0,0,0,.3), 0 10px 30px -18px rgba(0,0,0,.7);
     }
@@ -78,8 +81,11 @@ title: M. Yashwanth | Machine Learning Researcher
     padding: 5px 11px; border-radius: 999px;
   }
   .trace { width: 100%; height: 46px; margin: 30px 0 6px; display: block; color: var(--accent); }
-  .trace path { fill: none; stroke: currentColor; stroke-width: 2; }
-  .trace .flat { opacity: .28; }
+  .trace path { fill: none; stroke-width: 2.5; stroke-linecap: round; }
+  .trace .flat { stroke: currentColor; opacity: .22; }
+  .trace .wave { stroke: url(#sig); }
+  .trace .s0 { stop-color: var(--accent-2); }
+  .trace .s1 { stop-color: var(--accent); }
 
   /* sections */
   section { padding: 34px 0; border-top: 1px solid var(--line); }
@@ -89,7 +95,7 @@ title: M. Yashwanth | Machine Learning Researcher
     font-size: 1.05rem; letter-spacing: .02em; margin: 0 0 20px;
     display: flex; align-items: center; gap: 12px;
   }
-  h2::before { content: ""; width: 20px; height: 2px; background: var(--accent); display: inline-block; }
+  h2::before { content: ""; width: 22px; height: 3px; border-radius: 2px; background: var(--grad); display: inline-block; }
   p { margin: 0 0 1em; }
   a.inline { color: var(--accent); text-decoration: none; border-bottom: 1px solid color-mix(in srgb, var(--accent) 35%, transparent); }
   a.inline:hover { border-bottom-color: var(--accent); }
@@ -130,7 +136,7 @@ title: M. Yashwanth | Machine Learning Researcher
   }
   .project::after {
     content: ""; position: absolute; top: 0; left: 0; width: 3px; height: 100%;
-    background: linear-gradient(var(--accent), transparent);
+    background: linear-gradient(180deg, var(--accent-2), var(--accent));
   }
   .project h3 { font-family: var(--display); color: var(--ink); font-size: 1.22rem; margin: 0 0 10px; font-weight: 600; letter-spacing: -.01em; }
   .project p { color: var(--body); max-width: 70ch; }
@@ -201,6 +207,7 @@ title: M. Yashwanth | Machine Learning Researcher
       <li><a href="#project">Project</a></li>
       <li><a href="#experience">Experience</a></li>
       <li><a href="#contact">Contact</a></li>
+      <li><a href="https://drive.google.com/file/d/1TMsTHYsHoF1kPNLLvSr6XSnQv4MNHk0Q/view?usp=sharing" target="_blank" rel="noopener">CV</a></li>
     </ul>
   </div>
 </nav>
@@ -210,8 +217,14 @@ title: M. Yashwanth | Machine Learning Researcher
     <h1>M. Yashwanth</h1>
     <p class="lede">Machine learning researcher working across <b>optimization theory</b> and <b>systems</b>. My PhD is on federated optimization; before it I spent over a decade building wireless signal-processing systems in industry.</p>
     <svg class="trace" viewBox="0 0 860 46" preserveAspectRatio="none" aria-hidden="true">
+      <defs>
+        <linearGradient id="sig" gradientUnits="userSpaceOnUse" x1="300" y1="0" x2="860" y2="0">
+          <stop class="s0" offset="0"></stop>
+          <stop class="s1" offset="1"></stop>
+        </linearGradient>
+      </defs>
       <path class="flat" d="M0,23 L300,23"></path>
-      <path d="M300,23 C330,23 330,4 360,4 C390,4 390,42 420,42 C450,42 450,10 480,10 C510,10 510,36 540,36 C570,36 570,16 600,23 C640,32 680,14 720,23 C760,30 800,18 860,23"></path>
+      <path class="wave" d="M300,23 C330,23 330,4 360,4 C390,4 390,42 420,42 C450,42 450,10 480,10 C510,10 510,36 540,36 C570,36 570,16 600,23 C640,32 680,14 720,23 C760,30 800,18 860,23"></path>
     </svg>
   </div>
 </header>
@@ -290,37 +303,38 @@ title: M. Yashwanth | Machine Learning Researcher
 
   <section id="experience">
     <h2>Experience</h2>
+    <p style="color:var(--muted); font-size:.97rem; max-width:68ch; margin:-4px 0 24px;">Much of this work is statistical estimation, probabilistic inference, and optimization under noise on real high-dimensional data, the same mathematics my machine learning research builds on.</p>
     <ul class="timeline">
       <li class="role">
-        <h3>Cadence Design Systems — Principal Engineer</h3>
+        <h3>Cadence Design Systems, Principal Engineer</h3>
         <div class="when">Bengaluru · 2019–2021</div>
         <ul>
-          <li>Built ML-driven EDA models (neural networks, random forests, GNNs) to predict circuit delay and accelerate the design cycle.</li>
-          <li>Implemented RNN architectures for high-fidelity hardware delay estimation, improving convergence in timing optimization.</li>
+          <li>Built predictive models (neural networks, random forests, GNNs) on structured and graph-structured circuit data as fast surrogates for expensive timing simulation.</li>
+          <li>Used RNNs for hardware delay estimation, with the usual focus on representation and generalization to unseen designs.</li>
         </ul>
       </li>
       <li class="role">
-        <h3>Qualcomm — Senior Lead Engineer, PHY Systems</h3>
+        <h3>Qualcomm, Senior Lead Engineer, PHY Systems</h3>
         <div class="when">Bengaluru · 2014–2019</div>
         <ul>
-          <li>Architected and implemented PHY-layer algorithms for the IEEE 802.11ax (Wi-Fi 6) standard for dense deployments.</li>
-          <li>Designed receiver decoding and Radar Detection (DFS) mechanisms to meet global regulatory standards.</li>
-          <li>Developed Tx-IQ calibration and LLR optimization for carrier frequency offset, and advanced transmit beamforming for MIMO.</li>
+          <li>Architected PHY-layer algorithms for the IEEE 802.11ax (Wi-Fi 6) standard, most of which are estimation and inference problems under noise.</li>
+          <li>Built channel estimation, equalization, and LLR-based decoding; log-likelihood ratios are the same inference quantity used across probabilistic machine learning.</li>
+          <li>Developed Tx-IQ and carrier-frequency-offset calibration as estimate-then-correct parameter identification, and null-space-projection beamforming for MIMO (US patent).</li>
         </ul>
       </li>
       <li class="role">
-        <h3>Ikanos Communications (acquired by Qualcomm) — DSP Engineer</h3>
+        <h3>Ikanos Communications (acquired by Qualcomm), DSP Engineer</h3>
         <div class="when">Bengaluru · 2012–2014</div>
         <ul>
-          <li>Developed DSL signal-processing algorithms including RFI notch cancellation and adaptive echo suppression.</li>
-          <li>Improved throughput and stability via better symbol-boundary detection in high-noise copper environments.</li>
+          <li>Developed adaptive filtering for echo suppression and RFI cancellation, iteratively minimizing an error signal, the same online-optimization structure as gradient-based learning.</li>
+          <li>Improved stability through symbol-boundary detection in high-noise copper, a detection and estimation problem.</li>
         </ul>
       </li>
       <li class="role">
-        <h3>Redpine Signals (now Silicon Labs) — DSP Firmware Engineer</h3>
+        <h3>Redpine Signals (now Silicon Labs), DSP Firmware Engineer</h3>
         <div class="when">Hyderabad · 2011–2012</div>
         <ul>
-          <li>Engineered 802.11ac transmitter firmware with a focus on low-latency signal processing.</li>
+          <li>Engineered 802.11ac transmitter firmware with a focus on low-latency, resource-constrained implementation.</li>
         </ul>
       </li>
     </ul>
@@ -365,6 +379,7 @@ title: M. Yashwanth | Machine Learning Researcher
     <div class="contact">
       <a href="mailto:yashwanth06904@gmail.com">Email</a>
       <a href="https://www.linkedin.com/in/yashwanth-mandula-aba700a5/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://drive.google.com/file/d/1TMsTHYsHoF1kPNLLvSr6XSnQv4MNHk0Q/view?usp=sharing" target="_blank" rel="noopener">CV</a>
     </div>
   </section>
 
