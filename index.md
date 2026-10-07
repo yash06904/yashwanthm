@@ -281,10 +281,10 @@ title: M. Yashwanth | Machine Learning Researcher
   <section id="project">
     <h2>Selected project</h2>
     <div class="project">
-      <h3>A hard, fair evaluation task for frontier models</h3>
+      <h3>A long-horizon task that confuses frontier LLMs</h3>
       <p>A system-identification task designed to fail a frontier LLM in a specific, diagnosable way. The setup is a cascaded transmitter chain, an IQ modulator followed by a power amplifier with memory, observed through two internal taps. The task is to identify both impairments and invert them to recover withheld OFDM symbols.</p>
       <p>The design makes the problem solvable only through the intermediate tap, since the two-tap structure makes the cascade separable. It hides the amplifier memory so that a memoryless model floors at a fixed error with no external cue, and it has the oracle self-select its model order by AIC rather than assuming it. Run end to end, a frontier model fails as intended: it misses the hidden memory and rationalizes the residual error as noise.</p>
-      <p class="note">Built as a design exercise for an LLM evaluation role, where it was well received. It brings my RF and DSP background directly to bear on evaluation and verifier design.</p>
+      <p class="note">Built as a design exercise for an LLM evaluation role, where it was well received. It brings my RF and DSP background directly to bear on evaluation and verifier design. <a class="inline" href="https://drive.google.com/file/d/1YVCx0gQzGj42uag_nE1YsuUxHQdyHA8y/view?usp=sharing" target="_blank" rel="noopener">Read the write-up</a>.</p>
     </div>
   </section>
 
