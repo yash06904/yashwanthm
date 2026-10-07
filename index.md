@@ -346,7 +346,6 @@ title: M. Yashwanth | Machine Learning Researcher
         <h3>Service</h3>
         <ul>
           <li>Reviewer, TMLR (2026–present).</li>
-          <li>Reviewer, NeurIPS.</li>
           <li>Reviewer, AISTATS (2025–present).</li>
         </ul>
       </div>
