@@ -69,7 +69,7 @@ title: M. Yashwanth | Machine Learning Researcher
   header.hero { padding: 70px 0 20px; }
   .hero h1 {
     font-family: var(--display); color: var(--ink); font-weight: 700;
-    font-size: clamp(2.6rem, 7vw, 3.9rem); line-height: 1.02;
+    font-size: clamp(2.2rem, 5.5vw, 3.1rem); line-height: 1.04;
     letter-spacing: -.028em; margin: 0 0 .32em;
   }
   .hero .lede { font-size: clamp(1.08rem, 2.4vw, 1.3rem); color: var(--body); max-width: 52ch; margin: 0 0 1.3em; }
@@ -317,7 +317,7 @@ title: M. Yashwanth | Machine Learning Researcher
         <h3>Qualcomm, Senior Lead Engineer, PHY Systems</h3>
         <div class="when">Bengaluru · 2014–2019</div>
         <ul>
-          <li>Design and Implementation of PHY-layer algorithms for the IEEE 802.11ax (Wi-Fi 6) standard, most of which are estimation and inference problems under noise.</li>
+          <li>Architected PHY-layer algorithms for the IEEE 802.11ax (Wi-Fi 6) standard, most of which are estimation and inference problems under noise.</li>
           <li>Built channel estimation, equalization, and LLR-based decoding; log-likelihood ratios are the same inference quantity used across probabilistic machine learning.</li>
           <li>Developed Tx-IQ and carrier-frequency-offset calibration as estimate-then-correct parameter identification, and null-space-projection beamforming for MIMO (US patent).</li>
         </ul>
