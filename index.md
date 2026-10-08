@@ -201,7 +201,7 @@
       <li><a href="#project">Project</a></li>
       <li><a href="#experience">Experience</a></li>
       <li><a href="#contact">Contact</a></li>
-      <li><a href="https://drive.google.com/file/d/1TMsTHYsHoF1kPNLLvSr6XSnQv4MNHk0Q/view?usp=sharing" target="_blank" rel="noopener">CV</a></li>
+      <li><a href="https://drive.google.com/file/d/1w9vq45vyz3YteS0lpYp2yr1OHIbwumjy/view?usp=sharing" target="_blank" rel="noopener">CV</a></li>
     </ul>
   </div>
 </nav>
