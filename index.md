@@ -339,7 +339,7 @@
     <div class="contact">
       <a href="mailto:yashwanth06904@gmail.com">Email</a>
       <a href="https://www.linkedin.com/in/yashwanth-mandula-aba700a5/" target="_blank" rel="noopener">LinkedIn</a>
-      <a href="https://drive.google.com/file/d/1TMsTHYsHoF1kPNLLvSr6XSnQv4MNHk0Q/view?usp=sharing" target="_blank" rel="noopener">CV</a>
+      <a href="https://drive.google.com/file/d/1w9vq45vyz3YteS0lpYp2yr1OHIbwumjy/view?usp=drive_link" target="_blank" rel="noopener">CV</a>
     </div>
   </section>
 
