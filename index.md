@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="M. Yashwanth — machine learning researcher. Federated optimization theory, RL for LLM post-training, and a decade of wireless signal processing.">
+<meta name="description" content="M. Yashwanth, machine learning researcher. Federated optimization theory, generative AI, and a background in wireless signal processing.">
 <title>M. Yashwanth | Machine Learning Researcher</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -208,7 +208,7 @@
 
 <header class="hero">
   <div class="wrap">
-    <p class="lede">Machine learning researcher working across <b>optimization theory</b> and <b>systems</b>. My PhD is on federated optimization; before it I spent over a decade building wireless signal-processing systems in industry.</p>
+    <p class="lede">Machine learning researcher working across <b>optimization theory</b> and <b>systems</b>. My PhD is on federated optimization, and before it I built wireless signal-processing systems in industry.</p>
     <svg class="trace" viewBox="0 0 860 46" preserveAspectRatio="none" aria-hidden="true">
       <defs>
         <linearGradient id="sig" gradientUnits="userSpaceOnUse" x1="300" y1="0" x2="860" y2="0">
@@ -227,7 +227,7 @@
   <section id="about" class="lead-copy">
     <h2>About</h2>
     <p>I am a final-year PhD candidate in machine learning at the <strong>Indian Institute of Science (IISc)</strong>, advised by Anirban Chakraborty. My research is on the theory and practice of <strong>federated optimization</strong>: handling data heterogeneity, modelling rational clients, and improving generalization and stability.</p>
-    <p>Before returning to academia I spent over a decade in industry, as a <strong>Principal Engineer at Cadence</strong> building machine learning for EDA tools, and before that designing physical-layer algorithms for <strong>Wi-Fi 6 at Qualcomm</strong>. I am now extending my work toward reinforcement learning for LLM post-training and generative models, and I am orienting toward industry research.</p>
+    <p>Before returning to academia I worked in industry as a <strong>Principal Engineer at Cadence</strong>, building machine learning for EDA tools, and before that designing physical-layer algorithms for <strong>Wi-Fi 6 at Qualcomm</strong>. I am now extending my work toward reinforcement learning for LLM post-training and generative models, and I am orienting toward industry research.</p>
   </section>
 
   <section id="focus">
@@ -238,12 +238,8 @@
         <p>Aggregation and mechanism design, minimax optimization, personalization, and generalization under heterogeneity.</p>
       </li>
       <li>
-        <h3>RL for LLM post-training</h3>
-        <p>Strong working knowledge of PPO, GRPO, and DPO, with a focus on reward modelling and verifier design.</p>
-      </li>
-      <li>
-        <h3>Generative models</h3>
-        <p>Working knowledge of the foundations of diffusion models.</p>
+        <h3>Generative AI</h3>
+        <p>RL for LLM post-training (PPO, GRPO, DPO, reward and verifier design) and the foundations of diffusion models.</p>
       </li>
       <li>
         <h3>Evaluation design</h3>
