@@ -226,7 +226,7 @@
 
   <section id="about" class="lead-copy">
     <h2>About</h2>
-    <p>I am a final-year PhD candidate in machine learning at the <strong>Indian Institute of Science (IISc)</strong>, advised by Dr. Anirban Chakraborty. My research is on the theory and practice of <strong>federated optimization</strong>: handling data heterogeneity, modelling rational clients, and improving generalization and stability.</p>
+    <p>I am a final-year PhD candidate in machine learning at the <strong>Indian Institute of Science (IISc)</strong>, advised by Anirban Chakraborty. My research is on the theory and practice of <strong>federated optimization</strong>: handling data heterogeneity, modelling rational clients, and improving generalization and stability.</p>
     <p>Before returning to academia I worked in industry as a <strong>Principal Engineer at Cadence</strong>, building machine learning for EDA tools, and before that designing physical-layer algorithms for <strong>Wi-Fi 6 at Qualcomm</strong>. I am now extending my work toward reinforcement learning for LLM post-training and generative models, and I am orienting toward industry research.</p>
   </section>
 
@@ -303,28 +303,9 @@
         </ul>
       </li>
       <li class="role">
-        <h3>Qualcomm, Senior Lead Engineer, PHY Systems</h3>
-        <div class="when">Bengaluru · 2014–2019</div>
-        <ul>
-          <li>Architected PHY-layer algorithms for the IEEE 802.11ax (Wi-Fi 6) standard, most of which are estimation and inference problems under noise.</li>
-          <li>Built channel estimation, equalization, and LLR-based decoding; log-likelihood ratios are the same inference quantity used across probabilistic machine learning.</li>
-          <li>Developed Tx-IQ and carrier-frequency-offset calibration as estimate-then-correct parameter identification, and null-space-projection beamforming for MIMO (US patent).</li>
-        </ul>
-      </li>
-      <li class="role">
-        <h3>Ikanos Communications (acquired by Qualcomm), DSP Engineer</h3>
-        <div class="when">Bengaluru · 2012–2014</div>
-        <ul>
-          <li>Developed adaptive filtering for echo suppression and RFI cancellation, iteratively minimizing an error signal, the same online-optimization structure as gradient-based learning.</li>
-          <li>Improved stability through symbol-boundary detection in high-noise copper, a detection and estimation problem.</li>
-        </ul>
-      </li>
-      <li class="role">
-        <h3>Redpine Signals (now Silicon Labs), DSP Firmware Engineer</h3>
-        <div class="when">Hyderabad · 2011–2012</div>
-        <ul>
-          <li>Engineered 802.11ac transmitter firmware with a focus on low-latency, resource-constrained implementation.</li>
-        </ul>
+        <h3>Qualcomm and Ikanos, Wireless PHY and DSP</h3>
+        <div class="when">Bengaluru · 2012–2019</div>
+        <p style="margin:0; color:var(--body); font-size:.97rem;">Several years on the physical layer of Wi-Fi 6 and DSL, almost all of it estimation, inference, and detection under noise. I built channel estimation and equalization (recovering parameters from noisy observations), LLR-based decoding that computes the same log-likelihood ratios used across probabilistic machine learning, and symbol and radar detection framed as statistical hypothesis-testing problems. I developed adaptive filtering for echo and interference cancellation, which is online optimization that iteratively minimizes an error signal, the same structure as gradient-based learning, and treated Tx-IQ and carrier-frequency-offset correction as estimate-then-correct parameter identification. I also designed null-space-projection beamforming for MIMO, which became a US patent.</p>
       </li>
     </ul>
   </section>
