@@ -209,16 +209,6 @@
 <header class="hero">
   <div class="wrap">
     <p class="lede">Machine learning researcher working across <b>optimization theory</b> and <b>systems</b>. My PhD is on federated optimization, and before it I built wireless signal-processing systems in industry.</p>
-    <svg class="trace" viewBox="0 0 860 46" preserveAspectRatio="none" aria-hidden="true">
-      <defs>
-        <linearGradient id="sig" gradientUnits="userSpaceOnUse" x1="300" y1="0" x2="860" y2="0">
-          <stop class="s0" offset="0"></stop>
-          <stop class="s1" offset="1"></stop>
-        </linearGradient>
-      </defs>
-      <path class="flat" d="M0,23 L300,23"></path>
-      <path class="wave" d="M300,23 C330,23 330,4 360,4 C390,4 390,42 420,42 C450,42 450,10 480,10 C510,10 510,36 540,36 C570,36 570,16 600,23 C640,32 680,14 720,23 C760,30 800,18 860,23"></path>
-    </svg>
   </div>
 </header>
 
